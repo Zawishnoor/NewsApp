@@ -1,11 +1,11 @@
-const apikey = '2a1dffbb1a77496dae6e307c765cb283';
+const apikey = 'get your own api key and paste here ';
 const Blogcontainer = document.getElementById("blog-container");
 const searchfield = document.getElementById('search-input');
 const searchButton = document.getElementById('Search-button');
 
 async function fetchrandomnews() {
     try {
-        const apiurl = `add your own api key here `;
+        const apiurl = `https://newsapi.org/v2/top-headlines?country=us&pageSize=20&apiKey=${apikey}`;
         const response = await fetch(apiurl);
         const data = await response.json();
         return data.articles;
@@ -93,4 +93,5 @@ function displayBlogs(articles) {
         console.error("Error in fetching news:", error);
     }
 })();
+
 
