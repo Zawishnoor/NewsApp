@@ -1,5 +1,6 @@
 # 📰 News Website
 
+
 A simple responsive **News Website** built with **HTML, CSS, and JavaScript** that fetches live news using the [NewsAPI](https://newsapi.org/).  
 Users can:
 - Browse the latest top headlines.
@@ -55,3 +56,4 @@ Mobile: Single-column cards with fluid resizing.
 Free NewsAPI plan allows 100 requests/day.
 
 Some articles may not include images or descriptions.
+**Get your own api key and paste it in script code at top**
