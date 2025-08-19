@@ -56,4 +56,6 @@ Mobile: Single-column cards with fluid resizing.
 Free NewsAPI plan allows 100 requests/day.
 
 Some articles may not include images or descriptions.
+
+
 **Get your own api key and paste it in script code at top**
